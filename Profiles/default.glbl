@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Redirect to Qasir Web Platform</description>
+      <initValue>'https://web.qasir.id/sign-in'</initValue>
+      <name>qasir_web_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Handphone Login Qasir</description>
+      <initValue>'082213876823'</initValue>
+      <name>phone_qasir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Pin Login Qasir</description>
+      <initValue>'123567'</initValue>
+      <name>pin_qasir</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
