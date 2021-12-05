@@ -12,5 +12,5 @@ Feature: Choose Outlet and Change Profile
     Then Kemudian saya logout dari web Qasir.id
 
     Examples: 
-      | outlet        | gambar    | nama    | namablkg | 
-      | Cabang Condet | kelinci   | Maulana | Fariz    |
+      | outlet        | gambar | nama     | namablkg | 
+      | Cabang Condet | kucing | Muhammad | Fariz    |
