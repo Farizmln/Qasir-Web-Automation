@@ -144,7 +144,9 @@ class outletAndProfil {
 		TestObject dataDiri = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*/div[(contains(@class,'row'))][2]/div[(contains(@class,'col-xs-12 col-md-8'))]")
 		TestObject firstName = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*/input[(contains(@name,'first') and contains(@value,'$nama'))]")
 		TestObject lastName = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*/input[(contains(@name,'last') and contains(@value,'$namablkg'))]")
-
+		
+		WebUI.delay(2)
+		WebUI.scrollToPosition(0, 60)
 		WebUI.delay(4)
 		WebUI.takeScreenshot()
 		WebUI.delay(4)
